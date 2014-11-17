@@ -1,0 +1,16 @@
+Structure of database:
+
+There are 2 database :
+1)data
+2)history
+
+data has two tables:
+1)info
+This table has five columns ID,Email,Firstname,password,Balance.		
+
+2)info1
+This table has five columns ID,Lastname,Address,city,country.
+
+History is basically empty database.
+A new table is created each time a new user register.
+A table in this database consists of information such as PID,SENDER,amount and date columns.  	
