@@ -19,7 +19,7 @@
 		$con=mysqli_connect('localhost','root','','data');		
 		$bal=mysqli_query($con,"SELECT balance,firstname FROM info WHERE ID='$id'");
 		$bal1=mysqli_fetch_array($bal);
-		echo '<h2>Welcome '.$bal1['firstname'].'<br><font style="italic">How are you today?<br>Would like to Deposit money to your account?<br><a href="deposit.php">Click Here</a></font> </h2><div id="bal">Your current Balance:$'.$bal1['balance'].'</div></div>';
+		echo '<h2>Welcome '.$bal1['firstname'].'<br><font style="italic">How are you today?<br>Would you like to Deposit money to your account?<br><a href="deposit.php">Click Here</a></font> </h2><div id="bal">Your current Balance:$'.$bal1['balance'].'</div></div>';
 		include'history.php';
 		?>
 </div>		
